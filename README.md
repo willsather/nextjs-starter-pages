@@ -1,63 +1,36 @@
-## Example Next.js Application
+# Next.js Starter (Page Router)
 
-## Deploy your own
+> [!WARNING]  
+> This repository is archived as the new paradigm for Next.js is the [App Router](https://nextjs.org/docs/app).
+> 
+> I created a new starter that can be found [here](https://github.com/willsather/nextjs-starter).
 
-Once you have access to the environment variables you'll need, deploy the example
-using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Getting Started 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?project-name=with-mongodb&repository-name=with-mongodb&repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-mongodb&integration-ids=oac_jnzmjqM10gllKmSrG0SGrHOH)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
-with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/),
-or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-mongodb with-mongodb-app
-```
-
-```bash
-yarn create next-app --example with-mongodb with-mongodb-app
-```
-
-```bash
-pnpm create next-app --example with-mongodb with-mongodb-app
-```
-
-## Configuration
-
-### Run Next.js in development mode
+### Development mode
 
 ```bash
 npm install
 npm run dev
-
-# or
-
-yarn install
-yarn dev
 ```
 
-Your app should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post
-on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+Your app should be up and running on [http://localhost:3000](http://localhost:3000)!
 
-## Deploy on Vercel
+### Production mode
 
-You can deploy this app to the cloud
-with [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment))
-.
+```bash
+npm install
+npm run build
+npm run start
+```
 
-#### Deploy Your Local Project
+Your app should be up and running on [http://localhost:3000](http://localhost:3000)!
 
-To deploy your local project to Vercel, push it to GitHub/GitLab/Bitbucket
-and [import to Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+## Learn More
 
-**Important**: When you import your project on Vercel, make sure to click on **Environment Variables** and set them to
-match your `.env.local` file.
+To learn more about Next.js, take a look at the following resources:
 
-#### Deploy from Our Template
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Alternatively, you can deploy using our template by clicking on the Deploy button below.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?project-name=with-mongodb&repository-name=with-mongodb&repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fwith-mongodb&integration-ids=oac_jnzmjqM10gllKmSrG0SGrHOH)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
